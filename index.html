@@ -2,11 +2,151 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- main container --> 
+    <div class="wrapper">
+        <aside class="sidebar">
+        <figure>
+            <img class="my-photo1" src="img/photo1.jpg" alt="my photo">
+        </figure>
+
+            <!-- contact conteiner -->
+            
+            <div class="contact-conteiner">
+                <h3 class="contact-title">Contacts</h3>
+                <ul>
+            <li>
+                <div>
+                    <span class="contact-link-type">C:</span>
+                    <a class="contact-link" href="tel:380951138598">+38 095 113 85 98</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span class="contact-link-type">E:</span>
+                    <a class="contact-link" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                </div>
+            </li>
+        </ul>
+            </div>
+        
+
+            <!-- Tech Skills conteinter -->
+            <div class="tech-skills-conteiner">
+                <h3 class="tech-skills-title">Tech Skills</h3> 
+                <ul>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">HTML5</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">Node.js</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">React.js</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">JavaScript</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">WebPack</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">GIT</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">CSS3</spam></li>
+                </ul>    
+            </div>
+
+             <!-- Soft Skills -->
+             <div class="tech-skills-conteiner">
+                <h3 class="tech-skills-title">Soft Skills</h3> 
+                <ul>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">Scrum</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">Agile</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">GTD</spam></li>
+                    <li class="tech-skills-item"><spam class="tech-skills-text">Teamwork</spam></li>
+                </ul>    
+            </div>
+        </aside>
+
+        <!-- about me container -->
+        <div class="abouy-my-conteiner">
+            <!-- about me main info -->
+            <div class="info-container">
+                <h2 class="profession">Front-end Developer</h2>
+                <h1 class="name">Valentin Spivak</h1>
+                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
+            <!-- projects conteiner -->
+            <div class="projects-container">
+                <h3 class="abouy-my-title">Projects</h3>
+                <ol>
+                    <li class="projects-items">
+                        <a class="projects-link" href="https://lovecamp.allinsol.com/">https://lovecamp.allinsol.com/</a>
+                        <span class="dots">..............</span>
+                        <span><b>[ </b><span class="tech-name">HTML5, CSS3</span><b> ]</b></span>
+                    </li>
+                    <li class="projects-items">
+                        <a class="projects-link" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
+                        <span class="dots">.......................</span>
+                        <span><b>[ </b><span class="tech-name">JavaScript</span><b> ]</b></span>
+                    </li>
+                    <li class="projects-items">
+                        <a class="projects-link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
+                        <span class="dots">.......................</span>
+                        <span><b>[ </b><span class="tech-name">React.js, Node.js</span> <b> ]</b></span>
+                    </li>
+                </ol>
+            </div>
+            <!-- work experience -->
+            <div>
+                <h3 class="abouy-my-title">Work experience</h3>
+
+                <!-- compani 1 -->
+                <section>
+                    <h4 class="profession-title">Front-End Developer <span class="profession-company">Freelance</span></h4>
+                    <span class="profession-time">
+                        September 2019 - up to now <span class="profession-divider">|</span> Ukraine
+                    </span>
+                    <ul class="profession-duties">
+                        <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li class="profession-duties-items">Risus commodo viverra maecenas.</li>
+                        <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                </section>
+                
+                <!-- compani 2 -->
+                <section>
+                    <h4 class="profession-title">Manager <span class="profession-company">Roga & Kopyta New</span></h4>
+                    <span class="profession-time">
+                        March 2015 - October 2018 <span class="profession-divider">|</span> Ukraine
+                    </span>
+                    <ul class="profession-duties">
+                        <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                        <li class="profession-duties-items">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="profession-duties-items">Risus commodo viverra maecenas.</li>
+                    </ul>
+                </section>
+
+                <!-- compani 3 -->
+                <section>
+                    <h4 class="profession-title">Manager <span class="profession-company">Roga & Kopyta LLC</span></h4>
+                    <span class="profession-time">
+                        June 2014 - February 2015 <span class="profession-divider">|</span> Ukraine
+                    </span>
+                    <ul class="profession-duties">
+                        <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li class="profession-duties-items">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="profession-duties-items">Risus commodo viverra maecenas.</li>
+                    </ul>
+                </section>
+                
+            </div>
+            <!-- Education -->
+            <div>
+                <h3 class="abouy-my-education">Education</h3>
+                    <p class="abouy-my-company">Ternopil National Economic University</p>
+                    <p class="abouy-my-management">Management</p>
+                    <span class="profession-time">Septermber 2009 - June 2014 | Ukraine</span>
+            </div>
+        </div>
+        
+    </div>
+    <footer>Heloyyyyyyyyyyyyyyyy from footer! </footer>
 </body>
-</html>
+</html>     
+
